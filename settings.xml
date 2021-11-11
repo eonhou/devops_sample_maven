@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  settings.xml在系统中默认的位置  -->
+<!--  全局 ${maven.home}/conf/settings.xml  -->
+<!--  用户 ${user.home}/.m2/settings.xml  -->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>releases</id>
+            <username>repo_user</username>
+            <password>1qaz2wsx</password>
+        </server>
+        <server>
+            <id>snapshots</id>
+            <username>repo_user</username>
+            <password>1qaz2wsx</password>
+        </server>
+    </servers>
+
+</settings>
